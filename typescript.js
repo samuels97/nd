@@ -1,16 +1,9 @@
-type User = {
-  name: string;
-  age: number;
-};
-
-function isAdult(user: User): boolean {
-  return user.age >= 18;
+function isAdult(user) {
+    return user.age >= 18;
 }
-
-const justine: User = {
-  name: 'Justine',
-  age: 23,
+var justine = {
+    name: 'Justine',
+    age: 23,
 };
-
-const isJustineAnAdult: boolean = isAdult(justine);
-
+var isJustineAnAdult = isAdult(justine);
+console.log(isJustineAnAdult);
