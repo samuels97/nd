@@ -1,0 +1,26 @@
+{
+  "name": "xp",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "compile": "babel static/src -–presets react -–out-dir static",
+    "watch": "babel static/src --presets react –-out-dir static –watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "xp"
+  },
+  "keywords": [
+    "xp"
+  ],
+  "author": "Kalumba Samuel",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
