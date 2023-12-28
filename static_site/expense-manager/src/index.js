@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from './components/HelloWorld';
+import ExpenseEntryItem from './ExpenseEntryItem';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HelloWorld/>
+    <ExpenseEntryItem/>
   </React.StrictMode>,
   document.getElementById('root')
 );
